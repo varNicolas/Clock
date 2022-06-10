@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+  box-sizing: border-box;
+  border: none;
+  margin: 0rem;
+  padding: 0rem;
+  font-family: 'Open Sans', sans-serif;
+}
+:root{
+  font-size: 62.5%;
+}
+body{
+  align-items: center;
+  background: linear-gradient(300deg, #818181, #0906b9);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+}
+main#timer{
+  align-items: center;
+  background-color: transparent;
+  border-radius: .3rem;
+  box-shadow: 0rem .8rem 1rem  rgba(0, 0, 0, 0.9);
+  display: flex;
+  height: 20rem;
+  justify-content: space-around;
+  width: 55rem;
+}
+main div{
+  align-items: center;
+  background-color: rgba(5, 5, 5, .9);
+  border-radius: .7rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 17rem;
+  justify-content: center;
+  letter-spacing: .3rem;
+  width: 15rem;
+}
+main div p{
+  font-size: 6rem;
+  font-weight: bolder;
+}
+main div p.time{
+  font-size: 1rem;
+}
+button{
+  position: absolute;
+  color: white;
+  padding: 1rem 5rem;
+  border-radius: .2rem;
+  background-color: transparent;
+  cursor: pointer;
+  box-shadow: 1px 5px 10px rgba(5, 5, 5, .9);
+  bottom: 13rem;
+}
